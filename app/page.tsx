@@ -1,4 +1,4 @@
-import { CheckCircle2, ExternalLink, Github, Radio, ShieldCheck, Terminal } from 'lucide-react'
+import { CheckCircle2, ExternalLink, Radio, ShieldCheck, Terminal } from 'lucide-react'
 
 const checks = [
   'Node.js 20 runtime configured',
@@ -37,7 +37,7 @@ export default function Page() {
             </p>
             <div className="mt-9 flex flex-wrap gap-3">
               <a href="https://github.com/Samkelo119/ZephyrMd" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 rounded-xl bg-cyan-300 px-5 py-3 font-semibold text-[#07111f] transition hover:bg-cyan-200">
-                <Github className="size-4" aria-hidden="true" />
+                <ExternalLink className="size-4" aria-hidden="true" />
                 View on GitHub
                 <ExternalLink className="size-3.5" aria-hidden="true" />
               </a>
